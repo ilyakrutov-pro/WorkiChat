@@ -69,7 +69,7 @@
             android:name=".NotificationReplyReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.gwid.app.REPLY_ACTION" />
+                <action android:name="com.wi.app.REPLY_ACTION" />
             </intent-filter>
         </receiver>
 

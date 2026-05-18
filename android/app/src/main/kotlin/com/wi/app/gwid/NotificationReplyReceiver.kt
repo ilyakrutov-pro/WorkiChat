@@ -1,4 +1,4 @@
-package com.gwid.app.gwid
+package com.wi.app.gwid
 
 import android.content.BroadcastReceiver
 import android.content.Context

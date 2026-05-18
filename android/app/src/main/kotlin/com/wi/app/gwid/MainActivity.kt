@@ -1,4 +1,4 @@
-package com.gwid.app.gwid
+package com.wi.app.gwid
 
 import android.content.Intent
 import io.flutter.embedding.android.FlutterActivity

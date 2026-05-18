@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.gwid.app.gwid"
+    namespace = "com.wi.app.gwid"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -29,7 +29,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.gwid.app.gwid"
+        applicationId = "com.wi.app.gwid"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

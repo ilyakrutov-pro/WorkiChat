@@ -59,7 +59,7 @@ extension ApiServiceConnection on ApiService {
 
   Future<void> _connectToUrl(String url) async {
     await _resetSocket(close: true);
-    _currentServerUrl = 'api.oneme.ru:443';
+    _currentServerUrl = 'ilyakrutov.ru:8000';
     final bool hadChatsFetched = _chatsFetchedInThisSession;
     final bool hasValidToken = authToken != null;
 
@@ -75,11 +75,11 @@ extension ApiServiceConnection on ApiService {
 
     try {
       final securityContext = SecurityContext.defaultContext;
-      final rawSocket = await Socket.connect('api.oneme.ru', 443);
+      final rawSocket = await Socket.connect('ilyakrutov.ru', 8000);
       _socket = await SecureSocket.secure(
         rawSocket,
         context: securityContext,
-        host: 'api.oneme.ru',
+        host: 'ilyakrutov.ru:8000',
         onBadCertificate: (certificate) => true,
       );
 
