@@ -5,29 +5,24 @@ class AppUrls {
   /// Вебсокеты
   /// вроде в ConnectionManager ConnectionManagerSimple ApiService
   static const List<String> websocketUrls = [
-    'wss://ws-api.oneme.ru:443/websocket',
-    'wss://ws-api.oneme.ru/websocket',
-    'wss://ws-api.oneme.ru:8443/websocket',
-    'ws://ws-api.oneme.ru:80/websocket',
-    'ws://ws-api.oneme.ru/websocket',
-    'ws://ws-api.oneme.ru:8080/websocket',
+    'ws:/ilyakrutov.ru:8000/websocket',
   ];
 
   ///не понятно
-  static const String webOrigin = 'https://web.max.ru';
+  static const String webOrigin = 'http://ilyakrutov.ru:8000';
 
   /// Юзается на экране TOS, можно заменить на пiрно
-  static const String legalUrl = 'https://legal.max.ru/ps';
+  static const String legalUrl = 'http://ilyakrutov.ru:8000/ps';
 
-  static const String telegramChannel = 'https://t.me/TeamKomet';
+  static const String telegramChannel = 'https://t.me/ilyakrutov_c';
 
   ///для групп когда присоединиться хочеш
-  static const String joinLinkPrefix = 'https://max.ru/join/';
+  static const String joinLinkPrefix = 'http://ilyakrutov.ru:8000/join/';
 
   ///для поиска по айди, я все еще не ебу где эта функция
-  static const String idLinkPrefix = 'https://max.ru/id';
+  static const String idLinkPrefix = 'http://ilyakrutov.ru:8000/id';
 
   ///проверка вайтлиста для тестерских билдов
   ///Крякнуть как нехуй делать но кому не похуй??
-  static const String whitelistCheckUrl = 'https://wl.liarts.ru/wl';
+  static const String whitelistCheckUrl = 'http://ilyakrutov.ru:8000/wl';
 }
