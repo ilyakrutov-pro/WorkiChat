@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 const String appVersion = "0.4.1";
 
-const String appName = "Komet";
+const String appName = "Wi Chat";
 
 /// Лимиты
 class AppLimits {
