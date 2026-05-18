@@ -983,7 +983,7 @@ extension ApiServiceChats on ApiService {
         'message_queue_length': _messageQueue.length,
       },
       'connection': {
-        'current_url': _currentServerUrl ?? 'ilyakrutov.ru:8000',
+        'current_url': _currentServerUrl ?? '94.28.225.217:8000',
         'reconnect_attempts': _reconnectAttempts,
         'last_action_time': _lastActionTime,
       },

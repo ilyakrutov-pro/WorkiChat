@@ -86,14 +86,14 @@ class RegistrationService {
       final securityContext = SecurityContext.defaultContext;
 
       print('🔒 Создаем TCP соединение...');
-      final rawSocket = await Socket.connect('ilyakrutov.ru', 8000);
+      final rawSocket = await Socket.connect('94.28.225.217', 8000);
       print('✅ TCP соединение установлено');
 
       print('🔒 Устанавливаем SSL соединение...');
       _socket = await SecureSocket.secure(
         rawSocket,
         context: securityContext,
-        host: 'ilyakrutov.ru:8000',
+        host: '94.28.225.217:8000',
         onBadCertificate: (certificate) {
           print('⚠️  Сертификат не прошел проверку, принимаем...');
           return true;
